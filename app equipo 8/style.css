@@ -1,0 +1,40 @@
+.contenedor{
+
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(heathawks\ fondo\ app.jpg) ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+    text-align: left;
+    position: relative;
+}
+.corner-text{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.corner-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.ods13{
+    width: 200px;
+    height: 200px;
+}
+.ods15{
+    width: 200px;
+    height: 200px;
+}
