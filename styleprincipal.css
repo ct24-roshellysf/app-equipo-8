@@ -1,0 +1,197 @@
+.contenedor{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 400px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    height: 800px;
+}
+.fondo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.fondodecolor, .fondoheathawks{
+    position: absolute;
+    top: 0;
+    object-fit: cover;
+    height: 100%;
+}
+.fondodecolor{
+    left: 0;
+    width: 45%;
+}
+.fondoheathawks{
+    right: 0;
+    width:55%;
+}
+.h1{
+    font-family: "Lora",serif;
+    color: white;
+}
+.card-text{
+    font-family: "Roboto",serif;
+}
+h2{
+    font-family: "Lora",serif;
+    color: whitesmoke;
+}
+.mitad{
+     background-color: #250c30;
+     
+}
+.background-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    color: black;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: 20px;
+}
+.card{
+    background-color: grey;
+}
+.corner-text{
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: "Lora",serif ;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    color: whitesmoke;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.corner-text2{
+    font-size: 18px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+    font-family: "Roboto",serif;
+    text-align: justify;
+    width: 550px;
+    height: 193px;
+    position: absolute;
+    top: 198px;
+    left: 20px;
+    color: white;
+    text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000;
+}
+.ods13{
+    width: 200px;
+    height: 200px;
+}
+.ods15{
+    width: 200px;
+    height: 200px;
+}
+.card-custom-bg{
+    background-color: #250c30 !important;
+    color: white !important;
+    border: none !important;
+}
+.card-header{
+    font-family: "Lora",serif;
+}
+.card-body{
+    font-family: "Roboto",serif;
+}
+
+/*style.css de +info*/
+.fondodecolor-info{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.carouselslide {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.c-item {
+    height: 480px;
+}
+.c-img {
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-caption1{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    width: 500px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-left: 30%;
+}
+.carousel-caption2{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    width: 800px;
+    height: 150px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-left: 20%;
+}
+.carousel-caption3{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    width: 500px;
+    height: 100px;
+    z-index: 2;
+    position: absolute;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.card4-info{
+    position: relative;
+    z-index: 2;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.card-header-info{
+    color: white;
+    font-family: "Lora",serif;
+}
+.card-text-info{
+    color: white;
+    font-family: "Roboto",serif;
+}
+.table-info{
+    position: absolute;
+    z-index: 2;
+}
+.titletable-info {
+    color: white;
+    text-align: center;
+    font-family: "Lora", serif;
+}
+.bodytable-info{
+    color: white;
+    text-align: justify;
+    font-family: "Roboto", serif;
+}
+
